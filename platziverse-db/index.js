@@ -1,7 +1,6 @@
 'use strict'
 
-module.exports = function (config) {
-
+module.exports = async function (config) {
     const Agent = {}
     const Metric = {}
 

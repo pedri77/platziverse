@@ -4,12 +4,17 @@
   "description": "A Simple IoT Platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pedri77/platziverse"
   },
   "author": "pedri77",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
 }
