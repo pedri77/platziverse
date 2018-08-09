@@ -15,6 +15,8 @@ module.exports = async function (config) {
 
     await sequelize.authenticate()
 
+    sequelize.sync()
+
 
     const Agent = {}
     const Metric = {}
